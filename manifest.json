@@ -1,0 +1,21 @@
+{
+  "name": "Wydatki Tabela",
+  "version": "1.0",
+  "components": [
+    {
+      "id": "main",
+      "type": "viz",
+      "name": "Wydatki Tabela",
+      "icon": "table",
+      "description": "Tabela z wydatkami",
+      "script": "index.js",
+      "html": "index.html",
+      "useStyle": true,
+      "style": "style.css"
+    }
+  ],
+  "data": {
+    "sampling": "none",
+    "tables": ["DEFAULT"]
+  }
+}
